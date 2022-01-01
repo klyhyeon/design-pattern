@@ -17,7 +17,6 @@ public class Stage {
     private static final int OBSTACLE_COUNT = 5;
 
     public Stage(int level, EnemyFactory enemyFactory) {
-        InputStream
 //        enemyFactory = EnemyFactory.getFactory(level);
         //DI를 적용하면 getFactory를 EnemyFactory에 구현할 필요가 없습니다.
         this.stageLevel = level;
