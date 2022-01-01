@@ -1,11 +1,15 @@
 package com.baekho.design.pattern.factory;
 
+import com.baekho.design.pattern.factory.boss.Boss;
+import com.baekho.design.pattern.factory.flight.SmallFlight;
+import com.baekho.design.pattern.factory.obstacle.Obstacle;
+
 public abstract class EnemyFactory {
     public static EnemyFactory getFactory(int level) {
         if (level == 1) {
-            return EasyStageEnemyFactory();
+            return new EasyStageEnemyFactory();
         } else {
-            return HardEnemyFactory();
+            return new HardEnemyFactory();
         }
     }
 
