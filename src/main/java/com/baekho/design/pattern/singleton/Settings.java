@@ -14,6 +14,7 @@ public class Settings {
     //동기화 lock 특징 때문에 성능저하 일으킬 수 있음
     public static Settings getInstance() {
         return SettingsHolder.INSTANCE;
+//        return INSTANCE;
     }
 
 }
