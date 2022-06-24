@@ -1,4 +1,4 @@
-package com.baekho.design.pattern.composite.prac;
+package com.baekho.design.pattern.composite.exercise;
 
 public class Product extends ProductCategory {
 

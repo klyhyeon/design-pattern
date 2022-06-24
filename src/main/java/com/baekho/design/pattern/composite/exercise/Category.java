@@ -1,4 +1,4 @@
-package com.baekho.design.pattern.composite.prac;
+package com.baekho.design.pattern.composite.exercise;
 
 import java.util.ArrayList;
 
